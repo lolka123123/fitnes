@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url("../font/Red_Hat_Display/RedHatDisplay-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Permanent Marker";
+    src: url("../font/Permanent_Marker/PermanentMarker-Regular.ttf");
+    font-weight: 400;
+}
+
+
+
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url("../icon/webfonts/fa-brands-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url("../icon/webfonts/fa-duotone-900.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-light-300.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-regular-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-solid-900.ttf");
+    font-weight: 900;
+}
+
+.fas {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.fad {
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+
+.fab {
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+
+.icon-angle-right::before{
+    content: "\f105";
+    display: inline-block;
+    font-size: 25px;
+    font-style: normal;
+    margin-right: 8px;
+    
+}

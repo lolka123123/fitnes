@@ -1,0 +1,399 @@
+@media(max-width: 1400px){
+    .container {
+        width: 1200px;
+    }
+}
+
+@media(max-width: 1250px){
+    .container {
+        width: 950px;
+    }
+
+    .section-right-title{
+        font-size: 50px;
+    }
+
+
+
+
+
+    .section4-second-card-title{
+        font-size: 15px;
+    }
+
+
+
+    .section5-second-card-title{
+        font-size: 15px;
+    }
+
+
+
+
+    .section7{
+        padding: 100px 0;
+    }
+
+    .section7-left-title{
+        font-size: 40px;
+    }
+
+
+
+
+
+    .section8{
+        height: 600px;
+    }
+
+}
+
+@media(max-width: 1000px){
+    .container {
+        width: 750px;
+    }
+
+    .section-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-left{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .section-left-title{
+        font-size: 60px;
+    }
+
+    .section-right{
+        width: 80%;
+    }
+
+
+
+
+    .section2{
+        padding: 80px 0;
+    }
+
+
+
+    .section4-second-card-title{
+        font-size: 12px;
+    }
+
+
+
+
+
+    .section5-second-card-title{
+        font-size: 12px;
+    }
+
+
+
+
+    .section6-title{
+        font-size: 50px;
+    }
+
+
+
+
+    .section7-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section7-left{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .section7-img{
+        width: 70%;
+    }
+
+
+
+
+
+
+    .section8{
+        height: 500px;
+    }
+}
+
+@media(max-width: 800px){
+    .container {
+        width: 550px;
+    }
+
+    .nav-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-right{
+        margin-top: 10px;
+    }
+
+
+
+
+    .section{
+        padding: 50px 0;
+    }
+
+    .section-right-title{
+        font-size: 50px;
+    }
+
+    .section-left-title{
+        font-size: 50px;
+    }
+
+
+
+
+
+    .section3-first-title{
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .section3-second-card{
+        width: 100%;
+    }
+
+
+
+
+    
+
+
+    .section4{
+        padding: 50px 0;
+    }
+
+    .section4-first-title{
+        width: 100%;
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .section4-first-text{
+        width: 70%;
+    }
+
+    .section4-second{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section4-second-card{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    
+
+
+    .section5{
+        padding: 50px 0;
+    }
+
+    .section5-first-title{
+        width: 100%;
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    .section5-first-text{
+        width: 70%;
+    }
+
+    .section5-second{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section5-second-card{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+    .section6{
+        padding: 150px 0;
+    }
+
+    .section6-title{
+        font-size: 40px;
+    }
+
+
+
+
+    .section8{
+        height: 400px;
+    }
+}
+
+@media(max-width: 550px){
+    .container {
+        width: 400px;
+    }
+
+    .nav-right{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .nav-right-list{
+        margin-bottom: 20px;
+    }
+
+    .nav-right-list-link:first-child{
+        margin: 0;
+    }
+
+
+    .section{
+        padding: 30px 0;
+    }
+
+
+    .section-right-title{
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .section-left-title{
+        font-size: 40px;
+    }
+
+
+
+
+    .section2{
+        padding: 60px 0;
+    }
+
+    .section2-text{
+        font-size: 9px;
+    }
+
+    
+
+
+    .section6{
+        padding: 100px 0;
+    }
+
+    .section6-title{
+        font-size: 30px;
+    }
+
+
+
+
+    .section8{
+        height: 300px;
+    }
+}
+
+@media(max-width: 400px){
+    .container {
+        width: 90%;
+    }
+
+    .section-right-title{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .section-left-title{
+        font-size: 30px;
+    }
+
+
+
+
+    .section2{
+        padding: 40px 0;
+    }
+
+    .section2-text{
+        font-size: 6px;
+    }
+
+
+
+
+    .section3-first-title{
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+
+
+
+    .section4-first-title {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .section4-second-card-title{
+        font-size: 10px;
+    }
+
+
+
+    .section5-first-title {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .section5-second-card-title{
+        font-size: 10px;
+    }
+
+
+
+
+    .section6{
+        padding: 75px 0;
+    }
+
+    .section6-title{
+        font-size: 25px;
+    }
+
+
+
+    .section7-left-title{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+
+
+
+
+
+
+    .section8{
+        height: 200px;
+    }
+}

@@ -1,0 +1,690 @@
+@import url("fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    /* background: black; */
+}
+
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header-nav */
+
+
+.nav {
+    background: #FFFFFF;
+}
+
+.nav-content {
+    padding: 10px 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right-list {
+    display: flex;
+}
+
+.nav-right-list-link {
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #081158;
+    padding: 10px 10px;
+    margin-left: 10px;
+
+}
+
+
+.nav-right-link {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #081158;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: 1px solid #081158;
+    transition: 0.2s;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+
+.nav-right-link:hover {
+    background: #d6d6d6;
+    color: black;
+    border: 1px solid black;
+}
+
+.nav-right-shop {
+    margin: 0 13px 0 10px;
+}
+
+
+
+/* header-nav */
+
+
+
+/* section */
+
+.section {
+    background: #EEF0F4;
+    padding: 90px 0 150px;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-left {
+    width: 45%;
+    text-align: center;
+}
+
+.section-left-title {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: #8EA5A0;
+}
+
+.section-left-img {
+    width: 100%;
+}
+
+
+
+.section-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.section-right-sub {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #081158;
+}
+
+.section-right-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 79px;
+    color: #081158;
+    margin: 30px 0;
+
+}
+
+.section-right-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    color: #081158;
+    margin-bottom: 25px;
+
+}
+
+.section-buttonlink {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #081158;
+    border: 1px solid #081158;
+    border-radius: 6px;
+    padding: 19px 19px;
+    transition: 0.2s;
+}
+
+.section-buttonlink:hover {
+    background: #d6d6d6;
+    color: black;
+    border: 1px solid black;
+}
+
+/* section */
+
+
+/* section2 */
+
+.section2 {
+    background: #081158;
+    padding: 93px 0 121px;
+}
+
+.section2-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #DFDFDF;
+}
+
+/* section2 */
+
+
+/* section3 */
+
+.section3 {
+    padding: 81px 0 50px;
+}
+
+
+
+
+.section3-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-first-title {
+    width: 703px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 70px;
+    text-align: center;
+    color: #081158;
+    margin-bottom: 26px;
+
+}
+
+
+
+
+.section3-second {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section3-second-card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.section3-second-card-img {
+    width: 80%;
+}
+
+.section3-second-card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #081158;
+    margin: 32px 0;
+}
+
+.section3-second-card-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #081158;
+
+}
+
+/* section3 */
+
+
+/* section4 */
+
+.section4 {
+    background: #EEF0F4;
+    padding: 150px 0;
+}
+
+.section4-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section4-first-title {
+    width: 70%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 99px;
+    color: #081158;
+}
+
+.section4-first-text {
+    width: 45%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #081158;
+    margin: 30px 0;
+}
+
+
+
+
+.section4-second {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    width: 30%;
+}
+
+.section4-second-card-img {
+    width: 100%;
+}
+
+.section4-second-card-time {
+    margin: 30px 0 14px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4-second-card-time-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #081158;
+
+}
+
+.section4-second-card-time-price {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    color: #EC8675;
+
+}
+
+.section4-second-card-title {
+    width: 85%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+
+    color: #081158;
+}
+
+.section4-second-card-text {
+    margin: 14px 0 30px;
+    width: 80%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+
+    color: #081158;
+
+}
+
+/* section4 */
+
+
+/* section5 */
+
+.section5 {
+    background: url("../img/IMAGE (4).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.section5-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section5-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section5-first-title {
+    width: 70%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 99px;
+    color: #FFFFFF;
+}
+
+.section5-first-text {
+    width: 45%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+
+
+
+.section5-second {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5-second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    width: 30%;
+}
+
+.section5-second-card-img {
+    width: 100%;
+}
+
+.section5-second-card-time {
+    margin: 30px 0 14px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section5-second-card-time-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #081158;
+
+}
+
+.section5-second-card-time-price {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+    color: #EC8675;
+
+}
+
+.section5-second-card-title {
+    width: 85%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+
+    color: #081158;
+}
+
+.section5-second-card-text {
+    margin: 14px 0 30px;
+    width: 80%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+
+    color: #081158;
+
+}
+
+/* section5 */
+
+
+/* section6 */
+
+.section6 {
+    padding: 234px 0 255px;
+    background: url("../img/IMAGE (8).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section6-title {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+/* section6 */
+
+
+/* section7 */
+
+.section7 {
+    padding: 250px 0 150px;
+}
+
+.section7-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section7-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section7-left-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #081158;
+}
+
+.section7-left-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #081158;
+    margin: 30px 0 25px;
+
+}
+
+.section7-img {
+    width: 45%;
+}
+
+/* section7 */
+
+
+/* section8 */
+
+.section8 {
+    width: 100%;
+    height: 764px;
+    background: url("../img/Frame (5).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* section8 */
+
+
+/* section8 */
+
+.section9 {
+    padding: 150px 0;
+}
+
+/* section8 */
+
+
+/* section8 */
+
+.section9-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section9-first {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section9-first-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 70px;
+    text-align: center;
+    color: #081158;
+
+}
+
+.section9-first-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #081158;
+    margin: 34px 0 25px;
+}
+
+/* section8 */

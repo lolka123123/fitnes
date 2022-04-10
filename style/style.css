@@ -650,9 +650,9 @@ body {
 /* section8 */
 
 
-/* section8 */
+/* section9 */
 
-.section9-content{
+.section9-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -663,6 +663,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .section9-first-title {
@@ -687,4 +688,94 @@ body {
     margin: 34px 0 25px;
 }
 
-/* section8 */
+
+
+.section9-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section9-second-img {
+    width: 30%;
+}
+
+/* section9 */
+
+
+/* footer-section */
+
+footer {
+    padding: 100px 0;
+    background: #081158;
+}
+
+.footer-section{
+    margin-bottom: 50px;
+}
+
+.footer-section-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-card-sub {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 14px;
+
+}
+
+.footer-section-card-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.footer-section-card-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+
+
+/* footer-section */
+
+
+/* footer-section2 */
+
+.footer-section2-card{
+    margin-right: 65px;
+}
+
+/* .footer-section2-card{
+    width: ;
+} */
+
+/* footer-section2 */
